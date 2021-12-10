@@ -1,0 +1,82 @@
+  h1 {
+    text-align: center;
+  }
+  
+  video {
+    display: block;
+  }
+  
+  .invisible {
+    opacity: 0.2;
+  }
+  
+  .camView {
+    position: relative;
+    float: left;
+    width: calc(100% - 20px);
+    cursor: pointer;
+    border: 20px solid;
+    border-radius: 15px;
+    border-color: #068A95;
+    max-width: 640px;
+    bottom: -7px;
+  }
+  
+  .camView p {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255, 111, 0, 0.85);
+    color: #FFF;
+    border: 1px dashed rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-size: 12px;
+  }
+  
+  .highlighter {
+    background: rgba(0, 255, 0, 0.25);
+    border: 1px dashed #fff;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .button_start_stop{
+    width: 200px;
+	height: 200px; 
+    border-radius: 50%;
+    font-size:450%;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    background-color:#068A95; 
+    cursor: pointer;
+}  
+
+#conteneur1{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 88vh;
+}
+
+#conteneur1 img{
+    max-height: 480px;
+}
+
+#conteneur2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+    
+.removed{
+    display:none;
+}
+
+.button{
+    align-self: flex-end;
+}
+
+#topframe img{
+    height: 150px;
+}
